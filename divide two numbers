@@ -1,0 +1,11 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+int main()
+{
+    int num1=100,num2=20;
+    int div=num1/num2;
+    cout << "Division of "<<num1<<" and "<<num2<<" is: " << div<<endl;
+    getch();
+    return 0;
+}
